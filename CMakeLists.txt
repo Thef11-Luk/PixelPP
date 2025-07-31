@@ -23,7 +23,13 @@ add_library(glad STATIC lib/glad/glad.c)
 target_include_directories(glad PUBLIC lib/glad/include)
 
 
-add_executable(PixelPP src/main.cpp)
+add_executable(PixelPP src/main.cpp
+        src/Window.cpp
+        src/Window.h
+        src/Editor.cpp
+        src/Editor.h
+        src/ImageProcessor.cpp
+        src/ImageProcessor.h)
 
 
 target_include_directories(${PROJECT_NAME} PRIVATE
