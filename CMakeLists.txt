@@ -29,7 +29,13 @@ add_executable(PixelPP src/main.cpp
         src/Editor.cpp
         src/Editor.h
         src/ImageProcessor.cpp
-        src/ImageProcessor.h)
+        src/ImageProcessor.h
+        src/ImageTexture.cpp
+        src/ImageTexture.h
+        src/ControlPanel.cpp
+        src/ControlPanel.h
+        src/ImagePanel.cpp
+        src/ImagePanel.h)
 
 
 target_include_directories(${PROJECT_NAME} PRIVATE
